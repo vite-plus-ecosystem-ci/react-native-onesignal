@@ -20,6 +20,7 @@ export default defineConfig({
     },
   },
   pack: {
+    deps: { resolveDepSubpath: true },
     entry: 'src/index.ts',
     dts: true,
     format: 'es',
