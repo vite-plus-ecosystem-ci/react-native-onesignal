@@ -50,6 +50,7 @@
   "devDependencies": {
     "@types/invariant": "^2.2.37",
     "@vitest/coverage-v8": "4.1.11",
+    "react-native": "0.85.2",
     "typescript": "^5.9.3",
     "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa",
     "vite-plus": "0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa",
@@ -59,6 +60,7 @@
     "react-native": ">=0.79.0"
   },
   "overrides": {
+    "react-native": "0.85.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.fba044cf40fea5a7bf4a2ee97822f174eab33dfa",
     "vitest": "4.1.11"
   },
