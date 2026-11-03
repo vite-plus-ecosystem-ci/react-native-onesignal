@@ -49,16 +49,18 @@
   },
   "devDependencies": {
     "@types/invariant": "^2.2.37",
-    "@vitest/coverage-v8": "5.0.3",
+    "@vitest/coverage-v8": "5.1.0",
     "typescript": "^7.0.2",
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.1.0",
-    "vite-plus": "1.1.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.943ee4a9e322a7ad4b1b4113f844cd541a10b159",
+    "vite-plus": "0.0.0-commit.943ee4a9e322a7ad4b1b4113f844cd541a10b159",
+    "vitest": "5.1.0"
   },
   "peerDependencies": {
     "react-native": ">=0.79.0"
   },
   "overrides": {
-    "vite": "npm:@voidzero-dev/vite-plus-core@1.1.0"
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.0.0-commit.943ee4a9e322a7ad4b1b4113f844cd541a10b159",
+    "vitest": "5.1.0"
   },
   "packageManager": "bun@1.4.3",
   "codegenConfig": {
