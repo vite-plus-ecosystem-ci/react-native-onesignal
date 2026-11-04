@@ -63,12 +63,12 @@ It then builds and launches the app with the React Native CLI, which starts Metr
 
 ## Other scripts
 
-| Script                 | Purpose                                                              |
-| ---------------------- | -------------------------------------------------------------------- |
-| `vp run setup`         | Build, pack, and install the SDK into the demo.                      |
-| `vp run start`         | Start Metro.                                                         |
-| `vp run update:pods`   | Run `pod update OneSignalXCFramework` after native SDK changes.      |
-| `vp run clean:android` | Wipe Android build outputs and uninstall the app from the device.    |
+| Script                 | Purpose                                                               |
+| ---------------------- | --------------------------------------------------------------------- |
+| `vp run setup`         | Build, pack, and install the SDK into the demo.                       |
+| `vp run start`         | Start Metro.                                                          |
+| `vp run update:pods`   | Run `pod update OneSignalXCFramework` after native SDK changes.       |
+| `vp run clean:android` | Wipe Android build outputs and uninstall the app from the device.     |
 | `vp run clean:ios`     | Wipe iOS build outputs and `ios/Pods`. Run `pod install` again after. |
 
 ## Testing iOS Action Button Icons
